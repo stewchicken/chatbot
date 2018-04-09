@@ -2,8 +2,7 @@
 
 ### Test case
 
-- create a python virtualenv
-  source <virtualenv>bin/activate
+- create a python virtualenv        source <virtualenv>bin/activate
 - pip install Flask chatterbot urllib3
 
 - run chatbot  as web serivce
