@@ -2,12 +2,13 @@
 
 ### Test case
 
-- create a python virtualenv        source <virtualenv>bin/activate
+- create a python virtualenv <br>
+ source <virtualenv>bin/activate
 - pip install Flask chatterbot urllib3
 
-- run chatbot  as web serivce
-   cd <chatbot_dir>
-   python app.py
+- run chatbot  as web serivce <br>
+   cd <chatbot_dir> <br>
+   python app.py 
 
 -test1
 http://localhost:5000/chatbot/conversations?question=I need a App, how much it will cost？
