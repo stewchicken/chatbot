@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ChatBot	../chatbot.py	/^from chatterbot import ChatBot # import the chatbot$/;"	kind:namespace	line:2
+ListTrainer	../chatbot.py	/^from chatterbot.trainers import ListTrainer # method to train the chatbot$/;"	kind:namespace	line:1
+bot	../chatbot.py	/^bot = ChatBot('TestBot') # create the chatbot$/;"	kind:variable	line:6
+chat	../chatbot.py	/^    chat = open('files\/'+file, 'r').readlines()$/;"	kind:variable	line:10
+chatbot	../chatbot.py	/^from chatterbot import ChatBot # import the chatbot$/;"	kind:namespace	line:2
+chatbot	../chatbot.py	/^from chatterbot.trainers import ListTrainer # method to train the chatbot$/;"	kind:namespace	line:1
+chatbot.py	../chatbot.py	1;"	kind:file	line:1
+import	../chatbot.py	/^from chatterbot import ChatBot # import the chatbot$/;"	kind:namespace	line:2
+method	../chatbot.py	/^from chatterbot.trainers import ListTrainer # method to train the chatbot$/;"	kind:namespace	line:1
+os	../chatbot.py	/^import os$/;"	kind:namespace	line:4
+request	../chatbot.py	/^    request = input("You: ")$/;"	kind:variable	line:15
+response	../chatbot.py	/^    response = bot.get_response(request)$/;"	kind:variable	line:16
+the	../chatbot.py	/^from chatterbot import ChatBot # import the chatbot$/;"	kind:namespace	line:2
+the	../chatbot.py	/^from chatterbot.trainers import ListTrainer # method to train the chatbot$/;"	kind:namespace	line:1
+to	../chatbot.py	/^from chatterbot.trainers import ListTrainer # method to train the chatbot$/;"	kind:namespace	line:1
+train	../chatbot.py	/^from chatterbot.trainers import ListTrainer # method to train the chatbot$/;"	kind:namespace	line:1
