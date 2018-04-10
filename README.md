@@ -8,7 +8,7 @@
 
 - run chatbot  as web serivce <br>
    cd <chatbot_dir> <br>
-   python app.py 
+   python app.py
 
 -test1
 http://localhost:5000/chatbot/conversations?question=I need a App, how much it will cost？
