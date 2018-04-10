@@ -5,7 +5,15 @@ from chatterbot import ChatBot # import the chatbot
 import urllib.parse
 import os
 
-bot = ChatBot('TestBot') # create the chatbot
+# create the chatbot
+bot = ChatBot('MainRiverSoftBot',logic_adapters=[
+        {
+            "import_path": "chatterbot.logic.BestMatch",
+            "statement_comparison_function": "chatterbot.comparisons.levenshtein_distance",
+            "response_selection_method": "chatterbot.response_selection.get_first_response"
+        }
+    ])
+
 bot.set_trainer(ListTrainer)# set the trainer test
 
 # get current python file path
