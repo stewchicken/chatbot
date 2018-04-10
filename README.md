@@ -1,25 +1,29 @@
 ## Test of chatbot
 
-### Test case
+### install and activate virtualenv
 
 - create a python virtualenv <br>
  source <virtualenv>bin/activate
-- pip install Flask chatterbot urllib3
+ 
+### install dependency
 
+- pip install Flask chatterbot <br>
+- pip install -r requirements.txt
+
+
+### start app.py  
 - run chatbot  as web serivce <br>
    cd <chatbot_dir> <br>
    python app.py
 
--test1
-http://localhost:5000/chatbot/conversations?question=I need a App, how much it will cost？
+- start to input question and test <br>
+  ![screenshot](screenshot/chatbot_flask.PNG)
 
--test2
-http://localhost:5000/chatbot/conversations?question=需要一个订餐系统，大概多少钱？
 
-### Open tasks
 
-- configure port
+### Open tasks, 
+
+- deploy it to server 
 
 - integrate with mainriversoft.com as chatbot
 
--
