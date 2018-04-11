@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/static/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <h1>ChatBot @ MainRiverSoft.com</h1>
-    <div>
-      <div id="chatbox">
-        <p class="botText"><span>Hi! I'm ChatBot @ mainriversoft.com </span></p>
-      </div>
-      <div id="userInput">
-        <input id="textInput" type="text" name="msg" placeholder="Message">
-        <input id="buttonInput" type="submit" value="Send">
-      </div>
-      <script>
+</head>
+
+<body>
+    <div  class="container">
+        <h1>ChatBot </h1>
+        <div class="form-group" id="chatbox">
+            <p class="botText"><span>Hi! I'm ChatBot </span></p>
+        </div>
+        <div class="form-group" id="userInput">
+            <input id="textInput" class="form-control" type="text" name="msg" placeholder="Message">
+            <input id="buttonInput" type="submit" value="Send">
+        </div>
+
+</div>
+
+<script type="text/javascript">
         function getBotResponse() {
+          console.log('getBotResponse is called ');
           var rawText = $("#textInput").val();
           var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
           $("#textInput").val("");
           $("#chatbox").append(userHtml);
           document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
           $.get("/get", { msg: rawText }).done(function(data) {
+          console.log("bot: -> "+data);
             var botHtml = '<p class="botText"><span>' + data + '</span></p>';
             $("#chatbox").append(botHtml);
             document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
           });
         }
         $("#textInput").keypress(function(e) {
-            if(e.which == 13) {
+            if(e.which == 13 && $("#textInput").val().length>1) {
                 getBotResponse();
             }
         });
         $("#buttonInput").click(function() {
-          getBotResponse();
+          if($("#textInput").val().length>2)
+             getBotResponse();
         })
-      </script>
-    </div>
-  </body>
+</script>
+</body>
 </html>
