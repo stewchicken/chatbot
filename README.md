@@ -19,6 +19,8 @@
 - start to input question and test <br>
   ![screenshot](screenshot/chatbot_flask.PNG)
 
+- all js css file must be put at static folder so that could be included by index.html with flask framework
+
 
 
 ### Open tasks, 
