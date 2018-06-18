@@ -30,13 +30,18 @@ quoted from wiki
 ### Install Development Enviornment 
 
 - python3
+
 - anaconda / virtualenv 
+
+  ![installenv](screenshot\installenv.JPG)
+
+  
+
 - pycharm
-https://morvanzhou.github.io/tutorials/python-basic/basic/01-1-install/ 
 
+  ![pycharme1](screenshot\pycharme1.JPG)
 
+  
 
-
-
-
+  ![pycharme2](screenshot\pycharme2.JPG)	
 
