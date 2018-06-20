@@ -30,24 +30,24 @@ quoted from wiki
 
 - anaconda / virtualenv 
 
-  ![installenv](screenshot\installenv.JPG)
+  ![installenv](./screenshot/installenv.JPG)
 
-  
+
 
 - pycharm
 
-  ![pycharme1](screenshot\pycharme1.JPG)
+  ![pycharme1](./screenshot/pycharme1.JPG)
 
   
 
-  ![pycharme2](screenshot\pycharme2.JPG)	
+  ![pycharme2](./screenshot/pycharme2.JPG)	
 
 
 
 ### Demo  
 
 <video width="320" height="240" controls>
-  <source src="video/demo.mp4" type="video/mp4">
+  <source src="./video/demo.mp4" type="video/mp4">
 </video>
 
 
