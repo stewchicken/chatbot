@@ -3,14 +3,11 @@
 ## Agenda
 
 - Introduce chatbot
-
 - introduce python
-
 - install Development environment 
-
+- run our own chatbot
 - design our own chatbot
-
-- code and run our own chatbot
+- code  our own chatbot
 
 ## Introduce chatbot
 
@@ -45,3 +42,19 @@ quoted from wiki
 
   ![pycharme2](screenshot\pycharme2.JPG)	
 
+
+
+### Demo  
+
+<video width="320" height="240" controls>
+  <source src="video/demo.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+### Reference Link
+- Virtualenv https://www.the5fire.com/virtualenv-python-env.html
+- Anaconda https://blog.csdn.net/jbhand/article/details/77883457 
+- Pycharm https://blog.csdn.net/gaokao2011/article/details/77163820 
