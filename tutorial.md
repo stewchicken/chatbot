@@ -46,15 +46,35 @@ quoted from wiki
 
 ### Demo  
 
-<a href='./video/demo.mp4'>link</a>
+<a href='./video/demo.mp4'>Demo Video </a>
 
-See my [About](./video/demo.mp4) page for details.
-
-
+![demo](./screenshot/demo.JPG)
 
 
+### Design chatbot
+
+- Input model   - user inputs questions 
+- chatbot model -  chatbot responses questions
+- output model  - display responses to user
+
+#### input model
+
+user inputs quetsions in html form  and sends qutestions via  GET method (webservice) to chatbot
+![input](./screenshot/inputmodel.png)
+
+
+
+#### chatbot model
+initialize chatbot, let bot to use  Q&A conversion template , based on the template to response questions 
+![chatbot](./screenshot/botmodel1.png)
+
+![chatbot](./screenshot/botmodel2.png)
+
+#### output model
+![output](./screenshot/outputmodel.png)
 
 ### Reference Link
+
 - Virtualenv https://www.the5fire.com/virtualenv-python-env.html
 - Anaconda https://blog.csdn.net/jbhand/article/details/77883457 
 - Pycharm https://blog.csdn.net/gaokao2011/article/details/77163820 
