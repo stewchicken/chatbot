@@ -46,7 +46,7 @@ quoted from wiki
 
 ### Demo  
 
-<a href='./video/demo.mp4l'>link</a>
+<a href='./video/demo.mp4'>link</a>
 
 See my [About](./video/demo.mp4) page for details.
 
