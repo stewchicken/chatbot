@@ -25,7 +25,8 @@
 
 ### Open tasks, 
 
-- deploy it to server 
+- deploy it to server and write document
 
 - integrate with mainriversoft.com as chatbot
+
 
